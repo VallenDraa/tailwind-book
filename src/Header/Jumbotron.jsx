@@ -21,7 +21,7 @@ export default function Jumbotron() {
         </div>
       </div>
       {/* left side */}
-      <section className="max-w-xl">
+      <section className="max-w-xl relative z-10">
         <h1 className="pt-16 text-white text-5xl leading-[62.5px] font-medium">
           Sebuah framework CSS untuk developer yang memiliki phobia terhadap CSS
         </h1>
@@ -53,7 +53,7 @@ export default function Jumbotron() {
         </div>
         {/* Used technologies */}
         <div className="pt-12">
-          <p className="font-bold text-sm tracking-wide text-white/40 pb-4 before:content-[''] before:w-[30px] before:h-[2px] before:bg-white/40 flex items-center before:mr-2">
+          <p className="font-bold text-sm tracking-widest text-white/40 pb-4 before:content-[''] before:w-[30px] before:h-[2px] before:bg-white/40 flex items-center before:mr-2">
             TEKNOLOGI YANG DIGUNAKAN
           </p>
           <img
@@ -63,10 +63,15 @@ export default function Jumbotron() {
         </div>
       </section>
       {/* right side */}
-      <section>
-        <div>
-          <img src={Book} alt="Book" />
-        </div>
+      <section className="w-full relative">
+        <img
+          src={Book}
+          alt="Book"
+          className="absolute max-w-max z-0 h-[960px]"
+          style={{
+            filter: ` drop-shadow(0px 80px 100px rgba(29, 43, 63, 0.4))`,
+          }}
+        />
       </section>
     </main>
   );

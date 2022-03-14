@@ -4,7 +4,9 @@ module.exports = {
     extend: {
       colors: {
         dark: '#272D3E',
+        'dark-muted': 'rgba(39, 45, 62, 0.8);',
         primary: '#00BAC7',
+        'light-primary': '#EDFCFD',
         'light-gray': '#E5E5E5',
       },
       fontFamily: {

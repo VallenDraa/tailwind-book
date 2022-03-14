@@ -8,7 +8,11 @@ export default function Header() {
     <header className="relative">
       {/* background */}
       <div className="inset-0 absolute z-0">
-        <img src={headerSVG} alt=" " className="w-full h-screen" />
+        <img
+          src={headerSVG}
+          alt=" "
+          className="w-full h-screen max-h-[1000px]"
+        />
       </div>
 
       {/* navbar */}
