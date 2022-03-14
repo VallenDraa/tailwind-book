@@ -2,8 +2,6 @@ import React from 'react';
 import headerSVG from '../svg/Header/header.svg';
 import Navbar from './Navbar';
 import Jumbotron from './Jumbotron';
-import Rectangle1 from '../svg/Header/Rectangle1.svg';
-import Rectangle2 from '../svg/Header/Rectangle2.svg';
 
 export default function Header() {
   return (
