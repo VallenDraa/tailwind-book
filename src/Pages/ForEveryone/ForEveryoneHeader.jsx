@@ -1,7 +1,7 @@
 import React from 'react';
-import Pic1 from '../img/forEveryone/1.png';
-import Pic2 from '../img/forEveryone/2.png';
-import Pic3 from '../img/forEveryone/3.png';
+import Pic1 from '../../assets/img/forEveryone/1.png';
+import Pic2 from '../../assets/img/forEveryone/2.png';
+import Pic3 from '../../assets/img/forEveryone/3.png';
 
 export default function ForEveryone() {
   return (
@@ -17,7 +17,7 @@ export default function ForEveryone() {
           </h2>
         </div>
         <div>
-          <p className="text-[16px] leading-[32px] font-thin max-w-[575px] text-dark-muted ">
+          <p className="text-[18px] leading-[32px] font-thin max-w-[575px] text-dark-muted ">
             Buku ini bukan hanya untuk front-end developer yang ingin
             meningkatkan skill, buku ini juga cocok untuk back-end developer dan
             UI designer agar dapat menulis style tanpa harus menulis kode CSS
@@ -25,45 +25,33 @@ export default function ForEveryone() {
           </p>
         </div>
       </header>
-      <footer className="flex justify-between pt-20">
-        <div className="w-[372px]">
-          <img
-            src={Pic1}
-            alt="Utility First"
-            className="mx-auto w-fit h-[221px]"
-          />
+      <footer className="flex pt-20 justify-between">
+        <div>
+          <img src={Pic1} alt="Utility First" className="w-[372px]" />
           <h3 className="font-medium text-xl text-center mt-5 mb-3">
             Utility-First Framework
           </h3>
-          <p className="text-center text-dark-muted text-[16px] leading-[32px]">
+          <p className=" text-dark-muted/80 max-w-[372px] mx-auto text-center text-[16px] leading-[32px]">
             Tailwind hadir dengan konsep utility-first. Utility-first artinya
             banyak class-class kecil yang bisa digabung untuk menjadi sebuah UI.
           </p>
         </div>
-        <div className="w-[372px]">
-          <img
-            src={Pic2}
-            alt="Tailind JIT Engine"
-            className="mx-auto w-fit h-[221px]"
-          />
+        <div>
+          <img src={Pic2} alt="Tailind JIT Engine" className="w-[372px]" />
           <h3 className="font-medium text-xl text-center mt-5 mb-3">
             Tailwind JIT Engine
           </h3>
-          <p className="text-center text-dark-muted text-[16px] leading-[32px]">
+          <p className=" text-dark-muted/80 max-w-[372px] mx-auto text-center text-[16px] leading-[32px]">
             JIT engine akan men-generate utility-class yang kita gunakan saja.
             Ini akan membuat pengalaman pengembangan semakin baik.
           </p>
         </div>
-        <div className="w-[372px]">
-          <img
-            src={Pic3}
-            alt="Unopinionated framework"
-            className="mx-auto w-fit h-[221px]"
-          />
+        <div>
+          <img src={Pic3} alt="Unopinionated framework" className="w-[372px]" />
           <h3 className="font-medium text-xl text-center mt-5 mb-3">
             Unopinionated-Framework
           </h3>
-          <p className="text-center text-dark-muted text-[16px] leading-[32px]">
+          <p className=" text-dark-muted/80 max-w-[372px] mx-auto text-center text-[16px] leading-[32px]">
             Tailwind tidak memiliki pra-desain komponen apapun, ini membuat
             desain website yang kita buat menjadi unik.
           </p>

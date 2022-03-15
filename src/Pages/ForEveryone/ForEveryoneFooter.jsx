@@ -1,5 +1,5 @@
 import React from 'react';
-import PP from '../img/forEveryone/pp.png';
+import PP from '../../assets/img/forEveryone/pp.png';
 
 export default function ForEveryoneFooter() {
   return (

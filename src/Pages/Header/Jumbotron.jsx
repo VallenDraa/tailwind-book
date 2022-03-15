@@ -1,10 +1,10 @@
 import React from 'react';
-import Book from '../img/header/book.png';
-import Buy from '../svg/Header/buy.svg';
-import Sold from '../svg/Header/sold.svg';
-import Technologies from '../img/header/technologies.png';
-import Rectangle1 from '../svg/Header/Rectangle1.svg';
-import Rectangle2 from '../svg/Header/Rectangle2.svg';
+import Book from '../../assets/img/header/book.png';
+import Buy from '../../assets/svg/Header/buy.svg';
+import Sold from '../../assets/svg/Header/sold.svg';
+import Technologies from '../../assets/img/header/technologies.png';
+import Rectangle1 from '../../assets/svg/Header/Rectangle1.svg';
+import Rectangle2 from '../../assets/svg/Header/Rectangle2.svg';
 
 export default function Jumbotron() {
   return (
