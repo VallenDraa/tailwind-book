@@ -3,7 +3,7 @@ import Face from '../../assets/svg/Writer/face.svg';
 
 export default function Writer() {
   return (
-    <section className="flex max-w-screen-2xl mx-auto px-20 py-52">
+    <section className="flex max-w-screen-2xl mx-auto px-20 pt-52">
       <img
         src={Face}
         alt="Muhammad Nauval Azhar"

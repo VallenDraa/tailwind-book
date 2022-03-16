@@ -11,7 +11,7 @@ export default function Main() {
         <img
           src={Pic2}
           alt="Book"
-          className="absolute max-w-max z-0 -left-[70px]"
+          className="absolute max-w-max z-0 -left-[70px] -top-[10px]"
         />
       </section>
       <div className="max-w-[575px]">
@@ -26,10 +26,10 @@ export default function Main() {
           Tailwind. Selain itu kamu juga kamu dapat bergabung ke komunitas untuk
           bertanya ketika mengalami kesulitan.
         </p>
-        <ul class="space-y-8">
+        <ul className="space-y-8">
           <li
             className="flex bg-white rounded-2xl px-[30px] py-5 gap-x-6"
-            style={{ 'box-shadow': '0px 15px 30px rgba(2, 40, 43, 0.1)' }}
+            style={{ boxShadow: '0px 15px 30px rgba(2, 40, 43, 0.1)' }}
           >
             <div>
               <img
@@ -55,7 +55,7 @@ export default function Main() {
           </li>
           <li
             className="flex bg-white rounded-2xl px-[30px] py-5 gap-x-6"
-            style={{ 'box-shadow': '0px 15px 30px rgba(2, 40, 43, 0.1)' }}
+            style={{ boxShadow: '0px 15px 30px rgba(2, 40, 43, 0.1)' }}
           >
             <div>
               <img

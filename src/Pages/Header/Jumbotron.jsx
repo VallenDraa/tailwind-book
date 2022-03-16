@@ -37,7 +37,7 @@ export default function Jumbotron() {
             href="#"
             className=" flex px-10 py-4 text-white bg-primary shadow-soft hover:shadow-transparent active:bg-primary/60 duration-200 font-bold items-center rounded-full w-fit gap-x-2"
           >
-            <p>Beli Sekarang</p>
+            <p className="text-[16px]">Beli Sekarang</p>
             <img src={Buy} alt=" " className="h-5 w-5" />
           </a>
           {/* sold */}

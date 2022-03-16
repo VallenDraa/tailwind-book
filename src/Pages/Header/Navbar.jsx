@@ -7,7 +7,7 @@ export default function Navbar() {
       {/* logo */}
       <div className="flex items-center gap-x-2">
         <img src={Logo} alt="M" />
-        <p className="text-white text-sm font-bold">THE MALAKA</p>
+        <p className="text-white text-[18px] font-bold">THE MALAKA</p>
       </div>
       {/* Menus */}
       <ul className="flex gap-x-4">

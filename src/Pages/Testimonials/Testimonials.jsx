@@ -1,12 +1,9 @@
 import React from 'react';
-import Testimony from './Testimony';
-import Pic1 from '../../assets/img/Testimonials/1.png';
-import Pic2 from '../../assets/img/Testimonials/2.png';
-import Pic3 from '../../assets/img/Testimonials/3.png';
+import TestiPreview from './TestiPreview';
 
 export default function Testimonials() {
   return (
-    <section className="max-w-screen-2xl h-[713px] mx-auto overflow-hidden">
+    <section className="max-w-screen-2xl h-[713px] mx-auto relative">
       <div className="h-full bg-light-primary mx-20 p-[100px]">
         <header className="flex">
           <div className="basis-1/2">
@@ -26,32 +23,7 @@ export default function Testimonials() {
             </p>
           </div>
         </header>
-        <div className="flex gap-x-[30px] absolute inset-x-0 px-40 mt-16 justify-evenly ">
-          <Testimony
-            props={{
-              msg: 'Buku ini membantu banget buat kalian yang mau cobain tailwind, lengkap mulai dari instalasi sampai ke penggunaannya. Penjelasannya lengkap & enak dibaca kok :)',
-              pic: { Pic1 },
-              name: 'Ahmad Saugi',
-              occupation: 'Mahasiswa',
-            }}
-          />
-          <Testimony
-            props={{
-              msg: 'Buku ini membantu banget buat kalian yang mau cobain tailwind, lengkap mulai dari instalasi sampai ke penggunaannya. Penjelasannya lengkap & enak dibaca kok :)',
-              pic: { Pic1 },
-              name: 'Ahmad Saugi',
-              occupation: 'Mahasiswa',
-            }}
-          />
-          <Testimony
-            props={{
-              msg: 'Buku ini membantu banget buat kalian yang mau cobain tailwind, lengkap mulai dari instalasi sampai ke penggunaannya. Penjelasannya lengkap & enak dibaca kok :)',
-              pic: { Pic1 },
-              name: 'Ahmad Saugi',
-              occupation: 'Mahasiswa',
-            }}
-          />
-        </div>
+        <TestiPreview />
       </div>
     </section>
   );

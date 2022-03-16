@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
       <header className="text-center max-w-[777px] mx-auto">
-        <p className="py-[10px] px-4 rounded-full text-primary bg-lighter-primary font-bold text-sm leading-4 w-fit mx-auto ">
+        <p className="py-[10px] px-4 rounded-full text-primary bg-lighter-primary  font-bold text-[14px] leading-4 tracking-[10%] w-fit mx-auto ">
           PRATINJAU
         </p>
         <h2 className="text-[32px] leading-[44px] mt-[10px]">

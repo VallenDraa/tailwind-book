@@ -4,7 +4,7 @@ import PP from '../../assets/img/forEveryone/pp.png';
 export default function ForEveryoneFooter() {
   return (
     <section className=" bg-primary min-h-[720px]">
-      <div className="flex max-w-screen-2xl mx-auto py-[100px] px-20">
+      <div className="flex justify-between max-w-screen-2xl mx-auto py-[100px] px-20">
         <div className="basis-5/12">
           <p className="text-white tracking-widest before:h-[2px] before:w-[30px] before:content-[' '] before:bg-white before:mr-2 flex items-center text-xs ">
             BUKU INI UNTUK SIAPA
@@ -20,7 +20,7 @@ export default function ForEveryoneFooter() {
             </div>
           </div>
         </div>
-        <p className="text-white text-lg basis-7/12 leading-[40px]">
+        <p className="text-white  basis-7/12 leading-[40px] text-[18px] max-w-[674px]">
           "Tailwind sangat memungkinkan kamu untuk membangun sebuah desain
           website yang unik dan tanpa kamu perlu menulis kode CSS sedikitpun.
           Mungkin kamu akan berpikir bahwa kamu akan membutuhkan waktu yang

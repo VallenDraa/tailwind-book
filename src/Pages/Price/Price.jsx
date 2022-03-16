@@ -11,8 +11,8 @@ export default function Price() {
       </div>
       <header className="pt-44 px-20 max-w-screen-2xl mx-auto relative z-10">
         <header className="text-center max-w-[777px] mx-auto pb-5">
-          <p className="py-[10px] px-4 rounded-full text-primary bg-dark-gray font-bold text-sm leading-4 w-fit mx-auto ">
-            Harga Buku
+          <p className="py-[10px] px-4 rounded-full text-primary bg-dark-gray  font-bold text-[14px] leading-4 tracking-[10% w-fit mx-auto ">
+            HARGA BUKU
           </p>
           <h2 className="text-[33px] leading-[44px] mt-[10px] text-white">
             Kamu dapat membeli buku fisik atau buku elektronik untuk dibaca di

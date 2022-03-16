@@ -37,7 +37,7 @@ export default function PriceList() {
         <a
           href="#"
           className="leading-5 text-dim-gray mt-10 block text-center  bg-primary hover:shadow-transparent active:bg-primary/80 duration-300 py-4 px-5 rounded-md"
-          style={{ 'box-shadow': '0px 30px 60px rgba(74, 114, 255, 0.25)' }}
+          style={{ boxShadow: '0px 30px 60px rgba(74, 114, 255, 0.25)' }}
         >
           Beli Sekarang
         </a>
@@ -74,7 +74,7 @@ export default function PriceList() {
         <a
           href="#"
           className="leading-5 text-dim-gray mt-10 block text-center  bg-primary hover:shadow-transparent active:bg-primary/80 duration-300 py-4 px-5 rounded-md"
-          style={{ 'box-shadow': '0px 30px 60px rgba(74, 114, 255, 0.25)' }}
+          style={{ boxShadow: '0px 30px 60px rgba(74, 114, 255, 0.25)' }}
         >
           Beli Sekarang
         </a>
@@ -113,7 +113,7 @@ export default function PriceList() {
         <a
           href="#"
           className="leading-5 text-dim-gray mt-10 block text-center bg-primary hover:shadow-transparent active:bg-primary/60 duration-200 py-4 px-5 rounded-md"
-          style={{ 'box-shadow': '0px 30px 60px rgba(74, 114, 255, 0.25)' }}
+          style={{ boxShadow: '0px 30px 60px rgba(74, 114, 255, 0.25)' }}
         >
           Beli Sekarang
         </a>
