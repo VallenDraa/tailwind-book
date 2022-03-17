@@ -4,11 +4,11 @@ import X from '../../assets/svg/Price/x.svg';
 
 export default function PriceList() {
   return (
-    <ul className="flex gap-x-5">
-      <li className="bg-white p-[60px] rounded-2xl grow">
-        <h3 className="text-primary leading-5 mb-[10px]">Buku Digital</h3>
+    <ul className="flex flex-col xl:flex-row gap-5">
+      <li className="bg-white p-[40px] xl:p-[60px] rounded-2xl grow">
+        <h3 className=" text-primary leading-5 mb-[10px]">Buku Digital</h3>
         <p className="text-[32px] leading-10 mb-5">Rp100.000</p>
-        <ul className="space-y-5">
+        <ul className="gap-5 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-1">
           <li className="flex items-center gap-x-2">
             <img src={Check} alt="" className="w-5 h-5" />
             <p>Buku lengkap</p>
@@ -36,16 +36,15 @@ export default function PriceList() {
         </ul>
         <a
           href="#"
-          className="leading-5 text-dim-gray mt-10 block text-center  bg-primary hover:shadow-transparent active:bg-primary/80 duration-300 py-4 px-5 rounded-md"
-          style={{ boxShadow: '0px 30px 60px rgba(74, 114, 255, 0.25)' }}
+          className="leading-5 text-dim-gray mt-10 block text-center bg-primary shadow-light hover:shadow-transparent active:bg-primary/60 duration-300 py-4 px-5 rounded-md"
         >
           Beli Sekarang
         </a>
       </li>
-      <li className="bg-white p-[60px] rounded-2xl grow">
-        <h3 className="text-primary leading-5 mb-[10px]">Buku Fisik</h3>
+      <li className="bg-white p-[40px] xl:p-[60px] rounded-2xl grow">
+        <h3 className=" text-primary leading-5 mb-[10px]">Buku Fisik</h3>
         <p className="text-[32px] leading-10 mb-5">Rp185.000</p>
-        <ul className="space-y-5">
+        <ul className="gap-5 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-1">
           <li className="flex items-center gap-x-2">
             <img src={Check} alt="" className="w-5 h-5" />
             <p>Buku lengkap</p>
@@ -73,18 +72,17 @@ export default function PriceList() {
         </ul>
         <a
           href="#"
-          className="leading-5 text-dim-gray mt-10 block text-center  bg-primary hover:shadow-transparent active:bg-primary/80 duration-300 py-4 px-5 rounded-md"
-          style={{ boxShadow: '0px 30px 60px rgba(74, 114, 255, 0.25)' }}
+          className="leading-5 text-dim-gray mt-10 block text-center  bg-primary shadow-light hover:shadow-transparent active:bg-primary/60 duration-300 py-4 px-5 rounded-md"
         >
           Beli Sekarang
         </a>
       </li>
-      <li className="bg-white p-[60px] rounded-2xl grow">
-        <h3 className="text-primary leading-5 mb-[10px]">
+      <li className="bg-white p-[40px] xl:p-[60px] rounded-2xl grow">
+        <h3 className=" text-primary leading-5 mb-[10px]">
           Buku Digital + Fisik
         </h3>
         <p className="text-[32px] leading-10 mb-5">Rp250.000</p>
-        <ul className="space-y-5">
+        <ul className="gap-5 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-1">
           <li className="flex items-center gap-x-2">
             <img src={Check} alt="" className="w-5 h-5" />
             <p>Buku lengkap</p>
@@ -107,13 +105,12 @@ export default function PriceList() {
           </li>
           <li className="flex items-center gap-x-2">
             <img src={Check} alt="" className="w-5 h-5" />
-            <p>Dapat diunduh</p>
+            <p>Dapat shadow-light diunduh</p>
           </li>
         </ul>
         <a
           href="#"
-          className="leading-5 text-dim-gray mt-10 block text-center bg-primary hover:shadow-transparent active:bg-primary/60 duration-200 py-4 px-5 rounded-md"
-          style={{ boxShadow: '0px 30px 60px rgba(74, 114, 255, 0.25)' }}
+          className="leading-5 text-dim-gray mt-10 block text-center bg-primary shadow-light hover:shadow-transparent active:bg-primary/60 duration-200 py-4 px-5 rounded-md"
         >
           Beli Sekarang
         </a>

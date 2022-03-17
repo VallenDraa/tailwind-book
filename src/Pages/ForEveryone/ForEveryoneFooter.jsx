@@ -3,24 +3,26 @@ import PP from '../../assets/img/forEveryone/pp.png';
 
 export default function ForEveryoneFooter() {
   return (
-    <section className=" bg-primary min-h-[720px]">
-      <div className="flex justify-between max-w-screen-2xl mx-auto py-[100px] px-20">
-        <div className="basis-5/12">
-          <p className="text-white tracking-widest before:h-[2px] before:w-[30px] before:content-[' '] before:bg-white before:mr-2 flex items-center text-xs ">
-            BUKU INI UNTUK SIAPA
-          </p>
-          <h2 className="font-medium leading-[44px] text-[32px] max-w-[371px] tracking-light text-white">
-            Kata Pengantar Dari Penulis Buku
-          </h2>
-          <div className="mt-20 flex gap-x-4 items-center">
+    <section className=" bg-primary xl:min-h-[720px]">
+      <div className="flex flex-col xl:flex-row justify-between items-center max-w-screen-2xl mx-auto py-[100px] px-8 md:px-12 lg:px-20">
+        <div className="xl:basis-5/12 flex flex-row xl:flex-col w-full xl:w-fit justify-between">
+          <div>
+            <p className="text-white tracking-widest before:h-[2px] before:w-[30px] before:content-[' '] before:bg-white before:mr-2 flex items-center  text-[12px] sm:text-xs ">
+              BUKU INI UNTUK SIAPA
+            </p>
+            <h2 className="font-medium leading-[44px] text-lg sm:text-2xl md:text-[32px] md:max-w-[371px] tracking-light text-white">
+              Kata Pengantar Dari Penulis Buku
+            </h2>
+          </div>
+          <div className="hidden xl:mt-20 md:flex gap-x-4 items-center">
             <img src={PP} alt=" " className="h-[50px] w-[50px]" />
-            <div className="text-white">
-              <p className="text-lg">Muhamad Nauval Azhar</p>
-              <p className="text-sm">@mhdnauvalazhar</p>
+            <div className="text-white space-y-1">
+              <p className="text-sm xl:text-lg">Muhamad Nauval Azhar</p>
+              <p className="text-xs xl:text-sm">@mhdnauvalazhar</p>
             </div>
           </div>
         </div>
-        <p className="text-white  basis-7/12 leading-[40px] text-[18px] max-w-[674px]">
+        <p className=" text-white xl:basis-7/12 leading-[40px] text-[14px] md:text-[18px] xl:max-w-[674px] pt-10 xl:pt-0">
           "Tailwind sangat memungkinkan kamu untuk membangun sebuah desain
           website yang unik dan tanpa kamu perlu menulis kode CSS sedikitpun.
           Mungkin kamu akan berpikir bahwa kamu akan membutuhkan waktu yang
@@ -36,6 +38,14 @@ export default function ForEveryoneFooter() {
           atau bisa dibilang kamu sudah pernah membangun website sebelumnya dan
           ingin mempelajari hal baru untuk meningkatkan skill."
         </p>
+        {/* appear when screen size is below md */}
+        <div className="md:hidden xl:mt-20 flex gap-x-4 items-center mt-10">
+          <img src={PP} alt=" " className="h-[50px] w-[50px]" />
+          <div className="text-white">
+            <p className="text-sm xl:text-lg">Muhamad Nauval Azhar</p>
+            <p className="text-xs xl:text-sm">@mhdnauvalazhar</p>
+          </div>
+        </div>
       </div>
     </section>
   );

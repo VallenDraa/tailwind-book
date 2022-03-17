@@ -3,12 +3,12 @@ import Preview from '../../assets/img/benefit/preview.png';
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="pb-20 xl:pb-0">
       <header className="text-center max-w-[777px] mx-auto">
         <p className="py-[10px] px-4 rounded-full text-primary bg-lighter-primary  font-bold text-[14px] leading-4 tracking-[10%] w-fit mx-auto ">
           PRATINJAU
         </p>
-        <h2 className="text-[32px] leading-[44px] mt-[10px]">
+        <h2 className="text-xl sm:text-2xl md:text-[32px] leading-[44px] mt-[10px]">
           Sebelum membeli, kamu dapat melihat beberapa halaman pratinjau isi di
           dalam buku ini
         </h2>
@@ -18,7 +18,7 @@ export default function Footer() {
         </p>
       </header>
       <footer>
-        <img src={Preview} alt="" />
+        <img src={Preview} alt="" className="w-full xl:min-w-[1330px]" />
       </footer>
     </footer>
   );
