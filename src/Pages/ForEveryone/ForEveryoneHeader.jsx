@@ -5,7 +5,10 @@ import Pic3 from '../../assets/img/forEveryone/3.png';
 
 export default function ForEveryoneHeader() {
   return (
-    <section className="pt-52 md:pt-0 pb-52 px-8 md:px-12 lg:px-20   max-w-screen-2xl mx-auto">
+    <section
+      id="for-everyone"
+      className="-scroll-mt-8 md:scroll-mt-16 xl:scroll-mt-20 pt-52 md:pt-0 pb-52 px-8 md:px-12 lg:px-20 max-w-screen-2xl mx-auto"
+    >
       <header className="flex flex-col lg:flex-row gap-2 justify-between">
         <div>
           <p className="text-primary tracking-widest before:h-[2px] before:w-[30px] before:content-[' '] before:bg-primary before:mr-2 flex items-center text-[12px] sm:text-xs">

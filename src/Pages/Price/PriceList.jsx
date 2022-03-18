@@ -18,7 +18,7 @@ export default function PriceList() {
             <p>Akses secara digital</p>
           </li>
           <li className="flex items-center gap-x-2">
-            <img src={Check} alt="" className="w-5 h-5" />
+            <img src={X} alt="" className="w-5 h-5" />
             <p>Buku fisik</p>
           </li>
           <li className="flex items-center gap-x-2">

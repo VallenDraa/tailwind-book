@@ -8,7 +8,7 @@ import Rectangle2 from '../../assets/svg/Header/Rectangle2.svg';
 
 export default function Jumbotron() {
   return (
-    <main className=" flex relative z-10 w-full px-8 md:px-12 lg:px-20 justify-center max-w-screen-2xl mx-auto">
+    <main className=" flex relative z-0 xl:z-10 w-full px-8 md:px-12 lg:px-20 justify-center max-w-screen-2xl mx-auto">
       {/* rectangles on the background */}
       <div className="absolute top-0 w-full h-full">
         <div className="relative w-full h-full">

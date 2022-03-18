@@ -6,6 +6,7 @@ import Jumbotron from './Jumbotron';
 export default function Header() {
   return (
     <header
+      id="top"
       className="relative h-[850px] md:h-[1200px] bg-dark md:bg-transparent"
       style={{ clipPath: 'polygon(0 0, 100% 0%, 100% 90%, 0% 100%)' }}
     >

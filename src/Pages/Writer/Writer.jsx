@@ -3,7 +3,10 @@ import Face from '../../assets/svg/Writer/face.svg';
 
 export default function Writer() {
   return (
-    <section className="xl:flex max-w-screen-2xl mx-auto px-8 md:px-12 lg:px-20 pt-28 md:pt-40 xl:pt-52">
+    <section
+      id="penulis"
+      className="xl:flex max-w-screen-2xl mx-auto px-8 md:px-12 lg:px-20 pt-28 md:pt-40 xl:pt-52 -scroll-mt-20 md:-scroll-mt-40 xl:-scroll-mt-20"
+    >
       <img
         src={Face}
         alt="Muhammad Nauval Azhar"
