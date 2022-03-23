@@ -22,7 +22,7 @@ export default function Jumbotron() {
       </div>
       {/* left side */}
       <section className="w-full xl:max-w-xl relative z-10 grid justify-items-center xl:justify-items-start">
-        <h1 className="text-center xl:text-left pt-8 sm:pt-12 md:pt-20 xl:pt-16 text-white text-xl sm:text-3xl md:text-4xl lg:text-5xl lg:leading-[62.5px] font-medium">
+        <h1 className="text-center xl:text-left pt-12 md:pt-20 xl:pt-16 text-white text-xl sm:text-3xl md:text-4xl lg:text-5xl lg:leading-[62.5px] font-medium">
           Sebuah framework CSS untuk developer yang memiliki phobia terhadap CSS
         </h1>
         <p className="py-8 text-white/80 max-w-[470px] text-[14px] sm:text-[16px] leading-[32px] text-center xl:text-left">
@@ -35,10 +35,10 @@ export default function Jumbotron() {
           {/* buy button */}
           <a
             href="#"
-            className=" flex px-8 md:px-10 py-4 text-white bg-primary shadow-soft hover:shadow-transparent active:bg-primary/60 duration-200 font-bold items-center rounded-full w-fit gap-x-2"
+            className=" flex px-8 md:px-10 py-4 text-white bg-primary shadow-soft hover:shadow-transparent active:bg-primary/60 duration-200 font-bold items-center rounded-full w-fit"
           >
             <p className="text-[16px]">Beli Sekarang</p>
-            <img src={Buy} alt=" " className="h-5 w-5" />
+            <img src={Buy} alt=" " className="h-5 w-5 ml-2" />
           </a>
           {/* sold */}
           <div className="text-white gap-x-4 flex ">

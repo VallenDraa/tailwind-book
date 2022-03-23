@@ -11,7 +11,7 @@ export default function TestiPreview() {
       {/* buttons */}
       <a
         href="#"
-        className="absolute left-[10px] 2xl:-left-[25px] top-[120px] md:top-[100px] z-20 h-8 w-8 sm:h-10 sm:w-10 max-w-[50px] max-h-[50px]  bg-primary hover:bg-primary/50 active:bg-primary/70  rounded-full duration-300 flex items-center justify-center"
+        className="absolute left-[10px] 2xl:-left-[25px] top-[120px] md:top-[100px] z-20 h-10 w-10 max-w-[50px] max-h-[50px]  bg-primary hover:bg-primary/50 active:bg-primary/70  rounded-full duration-300 flex items-center justify-center"
         style={{
           filter: 'drop-shadow(0px 15px 30px rgba(0, 186, 199, 0.3))',
         }}
@@ -20,7 +20,7 @@ export default function TestiPreview() {
       </a>
       <a
         href="#"
-        className="absolute right-[10px] 2xl:-right-[25px] top-[120px] md:top-[100px] z-20 h-8 w-8 sm:h-10 sm:w-10 max-w-[50px] max-h-[50px]  bg-primary hover:bg-primary/50 active:bg-primary/70  rounded-full duration-300 flex items-center justify-center transform rotate-180"
+        className="absolute right-[10px] 2xl:-right-[25px] top-[120px] md:top-[100px] z-20 h-10 w-10 max-w-[50px] max-h-[50px]  bg-primary hover:bg-primary/50 active:bg-primary/70  rounded-full duration-300 flex items-center justify-center transform rotate-180"
         style={{
           filter: 'drop-shadow(0px 15px 30px rgba(0, 186, 199, 0.3))',
         }}
