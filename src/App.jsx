@@ -1,27 +1,31 @@
-import React, { useState } from 'react';
-import ForEveryoneHeader from './Pages/ForEveryone/ForEveryoneHeader';
-import ForEveryoneFooter from './Pages/ForEveryone/ForEveryoneFooter';
-import Header from './Pages/Header/Header';
-import Benefit from './Pages/Benefit/Benefit';
-import Price from './Pages/Price/Price';
-import Writer from './Pages/Writer/Writer';
-import Testimonials from './Pages/Testimonials/Testimonials';
-import BuyBook from './Pages/BuyBook/BuyBook';
-import Footer from './Pages/Footer/Footer';
-import Arrow from './assets/svg/Benefit/right-arrow.svg';
+import R from "react";
+import ForEveryoneHeader from "./Pages/ForEveryone/ForEveryoneHeader";
+import ForEveryoneFooter from "./Pages/ForEveryone/ForEveryoneFooter";
+import Header from "./Pages/Header/Header";
+import Benefit from "./Pages/Benefit/Benefit";
+import Price from "./Pages/Price/Price";
+import Writer from "./Pages/Writer/Writer";
+import Testimonials from "./Pages/Testimonials/Testimonials";
+import BuyBook from "./Pages/BuyBook/BuyBook";
+import Footer from "./Pages/Footer/Footer";
+import Arrow from "./assets/svg/Benefit/right-arrow.svg";
 
 export default function App() {
-  const [scrolled, setScrolled] = useState(0);
+  const [scrolled, setScrolled] = R.useState(0);
   const scrollMaxY =
     document.documentElement.scrollHeight -
     document.documentElement.clientHeight;
 
-  window.addEventListener('scroll', () => {
-    setScrolled((window.scrollY / scrollMaxY) * 100);
-  });
+  R.useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScrolled((window.scrollY / scrollMaxY) * 100);
+    });
 
-  if (scrolled >= 5) {
-  }
+    return () =>
+      window.removeEventListener("scroll", () => {
+        setScrolled((window.scrollY / scrollMaxY) * 100);
+      });
+  }, []);
 
   return (
     <main className=" font-DM overflow-x-hidden text-dark">
